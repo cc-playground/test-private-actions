@@ -1,0 +1,13 @@
+name: Test
+
+on:
+  issue_comment:
+    types: [created, edited]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    if: github.event.comment.body == 'test'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: .github/actions/say-hello
