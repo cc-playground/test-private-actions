@@ -10,4 +10,4 @@ jobs:
     if: github.event.comment.body == 'test'
     steps:
       - uses: actions/checkout@v2
-      - uses: .github/actions/say-hello
+      - uses: /.github/actions/say-hello
