@@ -1,7 +1,5 @@
 name: 'Say Hello Node'
-inputs: 
-  username:
-    required: true
+description: "Say Hello Node Action"
 runs:
   using: 'node12'
   main: 'main.js'
