@@ -1,0 +1,7 @@
+name: 'Say Hello Node'
+inputs: 
+  username:
+    required: true
+runs:
+  using: 'node12'
+  main: 'main.js'
